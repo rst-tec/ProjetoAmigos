@@ -5,9 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Random;
 
 public class SplashActivity extends AppCompatActivity {
@@ -18,7 +16,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         frase();
 
-        getSupportActionBar().hide(); //REMOVER ACTIONBAR
+        //getSupportActionBar().hide(); //REMOVER ACTIONBAR
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         new Handler().postDelayed(new Runnable() {
