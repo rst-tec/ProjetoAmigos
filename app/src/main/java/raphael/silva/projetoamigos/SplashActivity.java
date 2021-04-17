@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Random;
 
+import raphael.silva.projetoamigos.activity.MainActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
