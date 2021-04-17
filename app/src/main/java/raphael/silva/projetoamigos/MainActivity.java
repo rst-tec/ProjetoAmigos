@@ -1,7 +1,6 @@
 package raphael.silva.projetoamigos;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         btApp01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
             Intent intent = new Intent(getApplicationContext(), Tela01Activity.class);
             startActivity(intent);
             }
@@ -45,6 +43,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),Tela03Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        btApp04 = findViewById(R.id.btApp04);
+        btApp04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Tela04Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        btApp05 = findViewById(R.id.btApp05);
+        btApp05.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),Tela05Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        btApp06 = findViewById(R.id.btApp06);
+        btApp06.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Tela06Activity.class);
                 startActivity(intent);
             }
         });
